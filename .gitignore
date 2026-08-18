@@ -1,0 +1,35 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Project caches (embeddings, LLM responses)
+.cache/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Source PDFs — usually large and often not redistributable.
+# Sample documents that *are* redistributable get force-added:
+#   git add -f data/sample_documents/<file>.pdf
+data/**/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
